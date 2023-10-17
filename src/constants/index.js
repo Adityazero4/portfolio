@@ -112,7 +112,7 @@ const experiences = [
     company_name: "Support Genie",
     icon: supportGenie,
     iconBg: "#383E56",
-    date: "March 2023 - April 2023",
+    date: "May 2023 - july 2023",
     points: [
       "Built the frontend UI of the company's website using React.js, Material UI, and GraphQL",
       "Developed interactive components, and responsive layouts for the website using React.js and Material UI",
