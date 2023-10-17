@@ -21,10 +21,13 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "../assets/company/meta.png";
+import supportGenie from "../assets/company/supportGenie.png";
 import expense from "./expense.png";
 import musicPlayer from "./musicPlayer.png";
 import TvShow from "./TvShow.png";
 import Weather from "./Weather.png";
+import chatApp from "./chatApp.png";
+import product from "./product.png";
 
 export {
   logo,
@@ -51,4 +54,7 @@ export {
   musicPlayer,
   TvShow,
   Weather,
+  supportGenie,
+  chatApp,
+  product,
 };

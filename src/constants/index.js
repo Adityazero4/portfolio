@@ -17,6 +17,9 @@ import {
   musicPlayer,
   TvShow,
   Weather,
+  supportGenie,
+  chatApp,
+  product,
 } from "../assets";
 
 export const navLinks = [
@@ -104,6 +107,20 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "React Developer Internship",
+    company_name: "Support Genie",
+    icon: supportGenie,
+    iconBg: "#383E56",
+    date: "March 2023 - April 2023",
+    points: [
+      "Built the frontend UI of the company's website using React.js, Material UI, and GraphQL",
+      "Developed interactive components, and responsive layouts for the website using React.js and Material UI",
+      "Worked with the backend team to integrate the frontend with the backend using GraphQL",
+      " Implemented a GraphQL API to fetch data from the backend and display it on the frontend",
+      "Explored various React libraries and gained valuable insights into their functionalities and applications",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -128,6 +145,52 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "AI Powered 3D Product App",
+    description:
+      "A web application that helps in designing the tshirt using AI and 3D models.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-three-fiber",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "red-text-gradient",
+      },
+      {
+        name: "openAi API",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: product,
+    source_code_link: "https://github.com/Adityazero4/AI_powered_3D_product",
+  },
+  {
+    name: "Conerse Chat Application",
+    description:
+      "A web application that allows users to chat with each other and have real time messaging experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "red-text-gradient",
+      },
+    ],
+    image: chatApp,
+    source_code_link: "https://github.com/Adityazero4/Converse",
+  },
   {
     name: "Expense Tracker",
     description:
