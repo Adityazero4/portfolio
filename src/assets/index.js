@@ -22,12 +22,16 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "../assets/company/meta.png";
 import supportGenie from "../assets/company/supportGenie.png";
-import expense from "./expense.png";
-import musicPlayer from "./musicPlayer.png";
-import TvShow from "./TvShow.png";
-import Weather from "./Weather.png";
-import chatApp from "./chatApp.png";
-import product from "./product.png";
+import persistent from "../assets/company/persistent.png";
+import reverr from "../assets/company/reverr.jpg";
+
+import expense from "../assets/projects/expense.png";
+import musicPlayer from "../assets/projects/musicPlayer.png";
+import TvShow from "../assets/projects/TvShow.png";
+import Weather from "../assets/projects/Weather.png";
+import chatApp from "../assets/projects/chatApp.png";
+import product from "../assets/projects/product.png";
+import nikestore from "../assets/projects/nikestore.png";
 
 export {
   logo,
@@ -57,4 +61,7 @@ export {
   supportGenie,
   chatApp,
   product,
+  persistent,
+  reverr,
+  nikestore,
 };

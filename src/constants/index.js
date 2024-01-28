@@ -20,6 +20,9 @@ import {
   supportGenie,
   chatApp,
   product,
+  persistent,
+  reverr,
+  nikestore,
 } from "../assets";
 
 export const navLinks = [
@@ -45,10 +48,6 @@ const services = [
   {
     title: "React Developer",
     icon: creator,
-  },
-  {
-    title: "RPA Developer",
-    icon: backend,
   },
   {
     title: "Software Developer",
@@ -100,7 +99,7 @@ const experiences = [
     title: "React JS Training",
     company_name: "Meta",
     icon: meta,
-    iconBg: "#383E56",
+    iconBg: "#f2f2f2",
     date: "March 2023 - April 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -111,14 +110,33 @@ const experiences = [
     title: "React Developer Internship",
     company_name: "Support Genie",
     icon: supportGenie,
-    iconBg: "#383E56",
+    iconBg: "#f2f2f2",
     date: "May 2023 - july 2023",
     points: [
-      "Built the frontend UI of the company's website using React.js, Material UI, and GraphQL",
-      "Developed interactive components, and responsive layouts for the website using React.js and Material UI",
-      "Worked with the backend team to integrate the frontend with the backend using GraphQL",
-      " Implemented a GraphQL API to fetch data from the backend and display it on the frontend",
-      "Explored various React libraries and gained valuable insights into their functionalities and applications",
+      "Led frontend development using React.js, Material UI, and GraphQL to create a responsive company website with interactive components.",
+      "Proficiently utilized GraphQL for efficient data handling and explored diverse React libraries, gaining practical insights into their functionalities.",
+    ],
+  },
+  {
+    title: "Persistent Martian Intern(Apprenticeship)",
+    company_name: "Persistent",
+    icon: persistent,
+    iconBg: "#f2f2f2",
+    date: "Jun 2023 - August 2023",
+    points: [
+      "Completed an immersive program encompassing Python, Data Structures, Database Management, and Linux, laying a robust foundation for a techoriented career.",
+      "Thrived in a diverse group environment, fostering effective teamwork and communication skills, vital for success in the technology field",
+    ],
+  },
+  {
+    title: "React Tester Intern",
+    company_name: "Reverr",
+    icon: reverr,
+    iconBg: "#f2f2f2",
+    date: "Nov 2023 - Present",
+    points: [
+      "Conducting comprehensive tests on our React-based web app, swiftly resolving critical bugs to maintain flawless functionality",
+      "Ensuring a seamless user experience by meticulously aligning the application's performance with UI/UX design standards",
     ],
   },
 ];
@@ -145,6 +163,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Nike Store",
+    description:
+      "A sleek, responsive shopping experience for shoe enthusiasts, built with Vite.js and styled using TailwindCSS.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "red-text-gradient",
+      },
+      {
+        name: "react-redux",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: nikestore,
+    source_code_link: "https://github.com/Adityazero4/Nike-store",
+    deployed_link: "https://nike-store-1.netlify.app/",
+  },
   {
     name: "AI Powered 3D Product App",
     description:
@@ -250,31 +294,6 @@ const projects = [
     ],
     image: TvShow,
     source_code_link: "https://github.com/Adityazero4/TV_Show_App",
-  },
-  {
-    name: "Weather App",
-    description:
-      "A web application that allows users to search for the current weather in any city in the world.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Rest API",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: Weather,
-    source_code_link: "https://github.com/Adityazero4/1.Weather-App",
   },
 ];
 
