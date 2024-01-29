@@ -17,12 +17,13 @@ import {
   musicPlayer,
   TvShow,
   Weather,
-  supportGenie,
   chatApp,
+  supportGenie,
   product,
   persistent,
   reverr,
   nikestore,
+  admin,
 } from "../assets";
 
 export const navLinks = [
@@ -164,7 +165,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Nike Store",
+    name: "Nike Store WebApp",
     description:
       "A sleek, responsive shopping experience for shoe enthusiasts, built with Vite.js and styled using TailwindCSS.",
     tags: [
@@ -213,88 +214,115 @@ const projects = [
     ],
     image: product,
     source_code_link: "https://github.com/Adityazero4/AI_powered_3D_product",
+    deployed_link: "https://3d-product-shirt.netlify.app/",
   },
   {
-    name: "Conerse Chat Application",
+    name: "SmartDash Admin Suite",
     description:
-      "A web application that allows users to chat with each other and have real time messaging experience.",
+      "This is a sleek React admin panel for seamless team management, contact organization, and data visualization with Material-UI and @nivo charts.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "material-ui",
         color: "green-text-gradient",
       },
       {
-        name: "firebase",
+        name: "nivo-charts",
         color: "red-text-gradient",
       },
-    ],
-    image: chatApp,
-    source_code_link: "https://github.com/Adityazero4/Converse",
-  },
-  {
-    name: "Expense Tracker",
-    description:
-      "A web application that allows users to track their expenses and income, and view their spending habits over time.",
-    tags: [
       {
-        name: "react",
+        name: "formik-yup",
         color: "blue-text-gradient",
       },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
     ],
-    image: expense,
-    source_code_link:
-      "https://github.com/Adityazero4/Expense-tracker-Using-React-js",
+    image: admin,
+    source_code_link: "https://github.com/Adityazero4/SmartDash-Admin-Suite",
+    deployed_link: "https://aditya-admin-panel.netlify.app/",
   },
-  {
-    name: "Javascript Music Player",
-    description:
-      "A music player built with vanilla JavaScript, HTML, and CSS. It allows users to play, pause, skip, and select different songs.",
-    tags: [
-      {
-        name: "Javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: musicPlayer,
-    source_code_link: "https://github.com/Adityazero4/4.Music-Player",
-  },
-  {
-    name: "TV Show App",
-    description:
-      "A web application that allows users to see for their favorite TV shows and view information about them",
-    tags: [
-      {
-        name: "React Js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Material UI",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Rest API",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: TvShow,
-    source_code_link: "https://github.com/Adityazero4/TV_Show_App",
-  },
+  // {
+  //   name: "Converse Chat Application",
+  //   description:
+  //     "A web application that allows users to chat with each other and have real time messaging experience.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "firebase",
+  //       color: "red-text-gradient",
+  //     },
+  //   ],
+  //   image: chatApp,
+  //   source_code_link: "https://github.com/Adityazero4/Converse",
+  // },
+  // {
+  //   name: "Expense Tracker",
+  //   description:
+  //     "A web application that allows users to track their expenses and income, and view their spending habits over time.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: expense,
+  //   source_code_link:
+  //     "https://github.com/Adityazero4/Expense-tracker-Using-React-js",
+  // },
+  // {
+  //   name: "Javascript Music Player",
+  //   description:
+  //     "A music player built with vanilla JavaScript, HTML, and CSS. It allows users to play, pause, skip, and select different songs.",
+  //   tags: [
+  //     {
+  //       name: "Javascript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "HTML",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: musicPlayer,
+  //   source_code_link: "https://github.com/Adityazero4/4.Music-Player",
+  // },
+  // {
+  //   name: "TV Show App",
+  //   description:
+  //     "A web application that allows users to see for their favorite TV shows and view information about them",
+  //   tags: [
+  //     {
+  //       name: "React Js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Material UI",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Rest API",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: TvShow,
+  //   source_code_link: "https://github.com/Adityazero4/TV_Show_App",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

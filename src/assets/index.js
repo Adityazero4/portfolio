@@ -32,6 +32,7 @@ import Weather from "../assets/projects/Weather.png";
 import chatApp from "../assets/projects/chatApp.png";
 import product from "../assets/projects/product.png";
 import nikestore from "../assets/projects/nikestore.png";
+import admin from "../assets/projects/admin.png";
 
 export {
   logo,
@@ -64,4 +65,5 @@ export {
   persistent,
   reverr,
   nikestore,
+  admin,
 };
