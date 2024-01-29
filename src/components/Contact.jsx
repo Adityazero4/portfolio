@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import toast, { Toaster } from "react-hot-toast";
 
 //template_evgrbnx
 //service_x8nzuxq
@@ -44,7 +45,9 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          toast.success(
+            "Thank you. I will get back to you as soon as possible."
+          );
 
           setForm({
             name: "",
@@ -56,7 +59,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          toast.error("Ahh, something went wrong. Please try again.");
         }
       );
   };
@@ -122,6 +125,7 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      <Toaster position="bottom-center" />
     </div>
   );
 };
