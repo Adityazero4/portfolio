@@ -219,8 +219,8 @@ const projects = [
       },
     ],
     image: casecobra,
-    source_code_link: "",
-    deployed_link: "",
+    source_code_link: "https://github.com/Adityazero4/case-cobra",
+    deployed_link: "https://case-cobra-beta.vercel.app",
   },
   {
     name: "Nike Store WebApp",
