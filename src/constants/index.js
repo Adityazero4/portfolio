@@ -1,6 +1,5 @@
 import {
   mobile,
-  backend,
   creator,
   web,
   javascript,
@@ -13,17 +12,20 @@ import {
   git,
   meta,
   threejs,
-  expense,
-  musicPlayer,
-  TvShow,
-  Weather,
-  chatApp,
   supportGenie,
   product,
   persistent,
   reverr,
   nikestore,
   admin,
+  nextjs,
+  firebase,
+  python,
+  cpp,
+  prisma,
+  aws,
+  openinapp,
+  casecobra,
 } from "../assets";
 
 export const navLinks = [
@@ -45,10 +47,6 @@ const services = [
   {
     title: "Frontend Developer",
     icon: web,
-  },
-  {
-    title: "React Developer",
-    icon: creator,
   },
   {
     title: "Software Developer",
@@ -90,8 +88,21 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
+  },
+  { name: "Next JS", icon: nextjs },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "Prisma",
+    icon: prisma,
   },
 ];
 
@@ -115,7 +126,7 @@ const experiences = [
     date: "May 2023 - july 2023",
     points: [
       "Led frontend development using React.js, Material UI, and GraphQL to create a responsive company website with interactive components.",
-      "Proficiently utilized GraphQL for efficient data handling and explored diverse React libraries, gaining practical insights into their functionalities.",
+      "Enhanced the company's online presence with a user-friendly, interactive interface.",
     ],
   },
   {
@@ -136,8 +147,21 @@ const experiences = [
     iconBg: "#f2f2f2",
     date: "Nov 2023 - Present",
     points: [
-      "Conducting comprehensive tests on our React-based web app, swiftly resolving critical bugs to maintain flawless functionality",
-      "Ensuring a seamless user experience by meticulously aligning the application's performance with UI/UX design standards",
+      "Identified and fixed critical bugs in a React web application.",
+      "Ensured alignment with UI/UX standards for a seamless user experience.",
+      "Enhanced application performance and usability through comprehensive testing.",
+    ],
+  },
+  {
+    title: "Jr. Frontend Developer",
+    company_name: "OpeninApp",
+    icon: openinapp,
+    iconBg: "#f2f2f2",
+    date: "Feb 2024 - Present",
+    points: [
+      "Developed and enhanced user interfaces using React.js, Next.js, Tailwind CSS, and TypeScript.",
+      "Integrated frontend with backend using REST APIs, improving performance significantly.",
+      "Achieved a 200% increase in user adoption, driving revenue generation through affiliate links.",
     ],
   },
 ];
@@ -165,6 +189,40 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Case-cobra",
+    description:
+      "CaseCobra: A modern e-commerce platform for custom phone cases, built with Next.js 14, TypeScript, Tailwind CSS, and secure authentication via Kinde.",
+    tags: [
+      {
+        name: "next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "prostgres",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "kinde-auth",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: casecobra,
+    source_code_link: "",
+    deployed_link: "",
+  },
+  {
     name: "Nike Store WebApp",
     description:
       "A sleek, responsive shopping experience for shoe enthusiasts, built with Vite.js and styled using TailwindCSS.",
@@ -179,16 +237,16 @@ const projects = [
       },
       {
         name: "TailwindCSS",
-        color: "red-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "react-redux",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: nikestore,
     source_code_link: "https://github.com/Adityazero4/Nike-store",
-    deployed_link: "https://nike-store-1.netlify.app/",
+    deployed_link: "https://aditya-nike-store.netlify.app/",
   },
   {
     name: "AI Powered 3D Product App",
@@ -205,11 +263,11 @@ const projects = [
       },
       {
         name: "framer-motion",
-        color: "red-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "openAi API",
-        color: "blue-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: product,
@@ -231,98 +289,17 @@ const projects = [
       },
       {
         name: "nivo-charts",
-        color: "red-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "formik-yup",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: admin,
     source_code_link: "https://github.com/Adityazero4/SmartDash-Admin-Suite",
     deployed_link: "https://aditya-admin-panel.netlify.app/",
   },
-  // {
-  //   name: "Converse Chat Application",
-  //   description:
-  //     "A web application that allows users to chat with each other and have real time messaging experience.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "firebase",
-  //       color: "red-text-gradient",
-  //     },
-  //   ],
-  //   image: chatApp,
-  //   source_code_link: "https://github.com/Adityazero4/Converse",
-  // },
-  // {
-  //   name: "Expense Tracker",
-  //   description:
-  //     "A web application that allows users to track their expenses and income, and view their spending habits over time.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "green-text-gradient",
-  //     },
-  //   ],
-  //   image: expense,
-  //   source_code_link:
-  //     "https://github.com/Adityazero4/Expense-tracker-Using-React-js",
-  // },
-  // {
-  //   name: "Javascript Music Player",
-  //   description:
-  //     "A music player built with vanilla JavaScript, HTML, and CSS. It allows users to play, pause, skip, and select different songs.",
-  //   tags: [
-  //     {
-  //       name: "Javascript",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "HTML",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "CSS",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: musicPlayer,
-  //   source_code_link: "https://github.com/Adityazero4/4.Music-Player",
-  // },
-  // {
-  //   name: "TV Show App",
-  //   description:
-  //     "A web application that allows users to see for their favorite TV shows and view information about them",
-  //   tags: [
-  //     {
-  //       name: "React Js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Material UI",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Rest API",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: TvShow,
-  //   source_code_link: "https://github.com/Adityazero4/TV_Show_App",
-  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

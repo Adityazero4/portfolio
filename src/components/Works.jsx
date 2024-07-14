@@ -16,7 +16,9 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  deployed_link,
 }) => {
+  console.log(source_code_link);
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -25,19 +27,22 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full"
       >
         <div className="relative w-full h-[230px]">
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-contain  rounded-2xl"
+            className="w-full h-full object-contain rounded-2xl"
           />
 
-          <div className="absolute inset-0 flex justify-end m-1 card-img_hover">
+          <div className="absolute -top-1 right-2 flex justify-end">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              onClick={() => {
+                window.open(source_code_link, "_blank");
+                console.log("source_code_link", source_code_link);
+              }}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer z-10"
             >
               <img
                 src={github}
@@ -46,10 +51,10 @@ const ProjectCard = ({
               />
             </div>
           </div>
-          <div className="absolute inset-0 flex justify-start m-1 card-img_hover">
+          <div className="absolute -top-1 left-2 flex justify-start card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              onClick={() => window.open(deployed_link, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer z-10"
             >
               <FaExternalLinkAlt className="w-1/3 h-1/2 object-contain text-[10px]" />
             </div>
@@ -87,7 +92,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with

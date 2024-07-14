@@ -19,20 +19,23 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.svg";
+import firebase from "./tech/firebase.png";
+import aws from "./tech/aws.png";
+import cpp from "./tech/cpp.png";
+import prisma from "./tech/prisma.png";
+import python from "./tech/python.jpeg";
 
 import meta from "../assets/company/meta.png";
 import supportGenie from "../assets/company/supportGenie.png";
 import persistent from "../assets/company/persistent.png";
 import reverr from "../assets/company/reverr.jpg";
+import openinapp from "../assets/company/openinapp.png";
 
-import expense from "../assets/projects/expense.png";
-import musicPlayer from "../assets/projects/musicPlayer.png";
-import TvShow from "../assets/projects/TvShow.png";
-import Weather from "../assets/projects/Weather.png";
-import chatApp from "../assets/projects/chatApp.png";
-import product from "../assets/projects/product.png";
-import nikestore from "../assets/projects/nikestore.png";
-import admin from "../assets/projects/admin.png";
+import product from "../assets/projects/product.avif";
+import nikestore from "../assets/projects/nikestore.avif";
+import admin from "../assets/projects/admin.avif";
+import casecobra from "../assets/projects/casecobra.avif";
 
 export {
   logo,
@@ -55,15 +58,18 @@ export {
   typescript,
   threejs,
   meta,
-  expense,
-  musicPlayer,
-  TvShow,
-  Weather,
   supportGenie,
-  chatApp,
   product,
   persistent,
   reverr,
   nikestore,
   admin,
+  nextjs,
+  firebase,
+  aws,
+  cpp,
+  prisma,
+  python,
+  openinapp,
+  casecobra,
 };
